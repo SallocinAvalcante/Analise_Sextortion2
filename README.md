@@ -2,7 +2,7 @@
 
 > **Investigação prática de e-mail malicioso, OSINT e rastreamento de infraestrutura criminosa**
 > Analista: Nicollas Cavalcante Souza
-> Data do incidente: 04/03/2026
+> Data do incidente: 15/03/2026
 > Status da infraestrutura: **Ativa durante a análise**
 
 ---
@@ -18,7 +18,7 @@ O objetivo é entender:
 - Como os fundos se movimentam
 - Onde ocorre o ponto de quebra de anonimato
 
-> 📎 **Nota:** Esta é a segunda campanha investigada com perfil similar. A primeira, documentada em projeto separado, utilizava a infraestrutura `brighterfuture.net` / IP `164.92.68.246`. Ambas compartilham o mesmo provedor de VPS (**DigitalOcean, AS14061**) — o que pode indicar padrão operacional do mesmo ator ou grupo. Ver seção [Conexão entre campanhas](#-conexão-entre-campanhas).
+> 📎 **Nota:** Esta é a segunda campanha investigada com perfil similar. A primeira, documentada em projeto separado, utilizava a infraestrutura `brighterfuture.net` / IP `164.92.68.246`. Ambas compartilham o mesmo provedor de VPS (**DigitalOcean, AS14061**). O que pode indicar padrão operacional do mesmo ator ou grupo. Ver seção [Conexão entre campanhas](#-conexão-entre-campanhas).
 
 ---
 
@@ -58,7 +58,7 @@ O primeiro passo foi não pagar. O segundo foi investigar.
 Os headers revelaram imediatamente que o e-mail era fraudulento:
 
 ```
-From:        richard0449@hotmail.com       ← endereço spoofado
+From:        richard****@hotmail.com       ← endereço spoofado
 Return-Path: hexane@dash.zeeklabs.com      ← origem real exposta
 X-Sender-IP: 67.205.157.219
 SPF:         FAIL
@@ -85,7 +85,7 @@ O que cada resultado revela:
 
 ![VT IP](evidence/03_virustotal_ip.png)
 
-- Baixa detecção — infraestrutura rotacionada para evasão de blacklists
+- Baixa detecção → infraestrutura rotacionada para evasão de blacklists
 - Passive DNS (aba Relations) revelou domínios associados ao IP
 
 **AbuseIPDB**
@@ -287,7 +287,7 @@ Os fundos convergem consistentemente para exchanges centralizadas com KYC:
 ## 📊 Linha do Tempo
 
 ```
-04/03/2026  → E-mail de sextortion recebido
+15/03/2026  → E-mail de sextortion recebido
               SPF FAIL + DMARC FAIL confirmados nos headers
               IP 67.205.157.219 identificado (DigitalOcean AS14061)
               Carteira Bitcoin 1LW9aVXFeEpGaqDaugFj6UoYfPBWvsLHPv identificada
