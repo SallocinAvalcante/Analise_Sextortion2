@@ -34,7 +34,7 @@ description: >
 author: Nicollas Cavalcante Souza
 date: 2026/03/26
 references:
-  - [https://github.com/](https://github.com/SallocinAvalcante/Analise_Sextortion2)
+  - https://github.com/SallocinAvalcante/Analise_Sextortion2
 tags:
   - attack.initial_access
   - attack.t1566.001  # Phishing: Spearphishing Attachment
@@ -88,7 +88,7 @@ description: >
 author: Nicollas Cavalcante Souza
 date: 2026/03/19
 references:
-  - [https://github.com/YOUR_REPO/sextortion-analysis](https://github.com/SallocinAvalcante/Analise_Sextortion2)
+  - https://github.com/SallocinAvalcante/Analise_Sextortion2
 tags:
   - attack.initial_access
   - attack.t1566
@@ -136,7 +136,7 @@ description: >
 author: Nicollas Cavalcante Souza
 date: 2026/03/19
 references:
-  - [https://github.com/YOUR_REPO/sextortion-analysis](https://github.com/SallocinAvalcante/Analise_Sextortion2)
+  - https://github.com/SallocinAvalcante/Analise_Sextortion2
 tags:
   - attack.impact
   - attack.t1657  # Financial Theft
@@ -189,7 +189,7 @@ description: >
 author: Nicollas Cavalcante Souza
 date: 2026/03/19
 references:
-  - [https://github.com/YOUR_REPO/sextortion-analysis](https://github.com/SallocinAvalcante/Analise_Sextortion2)
+  - https://github.com/SallocinAvalcante/Analise_Sextortion2
 tags:
   - attack.initial_access
   - attack.t1566
@@ -229,7 +229,7 @@ description: >
 author: Nicollas Cavalcante Souza
 date: 2026/03/19
 references:
-  - [https://github.com/YOUR_REPO/sextortion-analysis](https://github.com/SallocinAvalcante/Analise_Sextortion2)
+  - https://github.com/SallocinAvalcante/Analise_Sextortion2
 tags:
   - attack.initial_access
   - attack.t1566
@@ -269,7 +269,7 @@ description: >
 author: Nicollas Cavalcante Souza
 date: 2026/03/19
 references:
-  - [https://github.com/YOUR_REPO/sextortion-analysis](https://github.com/SallocinAvalcante/Analise_Sextortion2)
+  - https://github.com/SallocinAvalcante/Analise_Sextortion2
 tags:
   - attack.command_and_control
   - attack.t1071.001
@@ -314,7 +314,7 @@ description: >
 author: Nicollas Cavalcante Souza
 date: 2026/03/19
 references:
-  - [https://github.com/YOUR_REPO/sextortion-analysis](https://github.com/SallocinAvalcante/Analise_Sextortion2)
+  - https://github.com/SallocinAvalcante/Analise_Sextortion2
 tags:
   - attack.impact
   - attack.t1657
@@ -375,7 +375,7 @@ description: >
 author: Nicollas Cavalcante Souza
 date: 2026/03/19
 references:
-  - [https://github.com/YOUR_REPO/sextortion-analysis](https://github.com/SallocinAvalcante/Analise_Sextortion2)
+  - https://github.com/SallocinAvalcante/Analise_Sextortion2
 tags:
   - attack.initial_access
   - attack.impact
