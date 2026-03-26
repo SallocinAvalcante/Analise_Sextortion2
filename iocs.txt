@@ -1,0 +1,71 @@
+# IOC — Sextortion Campaign
+
+# ============================================================
+
+# EMAIL
+
+# ============================================================
+
+[Email Addresses]
+[hexane@dash.zeeklabs.com](mailto:hexane@dash.zeeklabs.com)
+
+[Subject]
+Let's talk, without further ado
+
+# ============================================================
+
+# NETWORK
+
+# ============================================================
+
+[IP Addresses]
+67.205.157.219
+164.92.68.246
+
+[Domains]
+zeeklabs.com
+dash.zeeklabs.com
+brighterfuture.net
+api.brighterfuture.net
+licftluimc.quest
+
+[ASN]
+AS14061  # DigitalOcean
+
+# ============================================================
+
+# TLS CERTIFICATES
+
+# ============================================================
+
+[SHA1 Thumbprints]
+3b997bb1d06712e3700e972cd88b113091e0327d
+0c48c9e0ac4118651b3673d78ca8d4cd737f9cd5
+
+# ============================================================
+
+# BITCOIN ADDRESSES
+
+# ============================================================
+
+[Primary Wallet]
+1LW9aVXFeEpGaqDaugFj6UoYfPBWvsLHPv
+
+[Inbound]
+1G47mSr3oANXMafVrR8UC4pzV7FEAzo3r9
+bc1qps9458ydk8y9vlu5h0keeyh2ls0q5vruq7r58zruq9hpudlsywhqmelfhx
+bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h
+
+[Path A]
+15LjopQSGEciscSofebUkPu44yXPQah5tV
+1PZ4sWYFR2YL8HrXWJ9MNgpYQGoQ1D4s99
+bc1qdn3935jtfpyvdj6rv3wm078ekne7a2epzv9rav
+bc1q0kq7rd5ncpvy59v3rk9f8uuj0easp6mk40lzxx
+15tvZEg89vXyqkkG4zaz4DRdFi7B1RCSP8
+
+[Path B]
+bc1q4g37wkvgppcg5qru8gudnqf3qjqcej4a966ct8
+bc1qcpwhs4nj30zvnx7x8cyt9n3996easp58shuuc2
+bc1qn0k7de535rk975zsvukp6rwcarm5fwmu9zu9l5
+3Cb2BhNPD9YNaEvgXAHS1EZNAjqyxGS56s
+bc1q9wvygkq7h9xgcp59mc6ghzczrqlgrj9k3ey9tz

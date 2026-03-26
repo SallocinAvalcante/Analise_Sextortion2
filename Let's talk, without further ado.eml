@@ -1,0 +1,63 @@
+Received: from SA3PR20MBXXXX.namprd20.prod.outlook.com (::1) by
+ IA0PPFE268XXXX.namprd20.prod.outlook.com with HTTPS; Sun, 15 Mar 2026
+ 11:35:40 +0000
+
+Received: from DU2PXXXCA0012.EURPXXX.PROD.OUTLOOK.COM (XXXX::8) by
+ SA3PR20MBXXXX.namprd20.prod.outlook.com with Microsoft SMTP Server; Sun, 15 Mar 2026 11:35:39 +0000
+
+Received: from DB3PEPFXXXX.eurprd02.prod.outlook.com (XXXX::89) by
+ DU2PXXX.outlook.office365.com with Microsoft SMTP Server; Sun, 15 Mar 2026 11:35:35 +0000
+
+Authentication-Results:
+ spf=none (sender IP is 67.205.157.219)
+ smtp.mailfrom=dash.zeeklabs.com;
+ dkim=none;
+ dmarc=fail action=none header.from=hotmail.com;
+ compauth=fail reason=001
+
+Received-SPF: None (protection.outlook.com: dash.zeeklabs.com does not designate permitted sender hosts)
+
+Received: from dash.zeeklabs.com (67.205.157.219) by
+ mail.protection.outlook.com with Microsoft SMTP Server; Sun, 15 Mar 2026 11:35:38 +0000
+
+Message-ID: <REDACTED_MESSAGE_ID>
+From: <redacted_sender>@hotmail.com
+To: <redacted_recipient>@hotmail.com
+Subject: Let's talk, without further ado
+Date: Sun, 15 Mar 2026 11:35:38 +0000
+
+Return-Path: hexane@dash.zeeklabs.com
+X-Sender-IP: 67.205.157.219
+
+No answer, just cosmic quiet.
+Ok. I don't have much time, so let's get straight to the point.
+I want to make you an offer that you can refuse, but only once.
+
+Here's what I have:
+Your complete personal information: full name, date of birth, home address.
+Your social security number and driver's license details.
+All your email account login credentials, including this account.
+Other login details and your private messages.
+A multitude of files found on your devices.
+Access to your bank accounts.
+The details of your credit cards: number, expiry date, and cvv.
+
+I have compiled this entire package into a single folder. I can and intend to do two things with it. It is up to you to decide which one:
+
+I will send this entire package to darknet markets, where other criminals will buy it.
+It is unknown how they will use this information. They may purchase something illegal in your name, or they may not, but you will definitely not like it.
+
+Or you can buy it from me for a small fee of 600 usd.
+Changing the entire package of documents and data is very expensive, very time-consuming, and unsafe.
+
+I already know that you have just read this text. Do not try to ignore this.
+
+I only accept payment in bitcoins at the exchange rate at the time of transfer.
+Transfer money here: 1LW9aVXFeEpGaqDaugFj6UoYfPBWvsLHPv
+
+After payment, I will delete the folder containing your data, and you can continue living as before or, if you don't trust me, take your time changing all your data. It's more profitable for me if you pay me. It's easier and better for everyone.
+
+This is a unique offer. Take advantage of it. I will wait for 1 day.
+
+[Richard]
+
