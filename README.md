@@ -155,7 +155,7 @@ Conforme a imagem acima, não foram encontrados registros TXT contendo SPF/DMARC
 Aqui buscamos sobre o tls no censys para entender mais sobre a infra deste dominio
 ![TLS](evidence/09_tls_cert.png)
 
-Após isto para verificar qualquer comportamento de certificados utilizamos a seguinte busca no Censys
+Após isto para identificar qualquer comportamento de certificados de nome parecidos utilizamos a seguinte busca no Censys
 ![Censys](evidence/23_Censys_cert.names_Issuer.png)
 
 | Issuer | Observação |
