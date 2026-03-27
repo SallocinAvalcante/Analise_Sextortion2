@@ -395,7 +395,46 @@ sextortion-analysis/
 ```
 
 ---
+## 👛 Carteiras investigadas
+
+**[Primary Wallet]**
+
+[1LW9aVXFeEpGaqDaugFj6UoYfPBWvsLHPv](https://intel.arkm.com/explorer/address/1LW9aVXFeEpGaqDaugFj6UoYfPBWvsLHPv) (Carteira do atacante - ponto inicial da análise / receiver)
+
+**[Inbound - Funding Sources]**
+
+[1G47mSr3oANXMafVrR8UC4pzV7FEAzo3r9](https://intel.arkm.com/explorer/address/1G47mSr3oANXMafVrR8UC4pzV7FEAzo3r9) (Exchange funding - Gate.io hot wallet | entrada recente ~6 dias)
+
+[bc1qps9458ydk8y9vlu5h0keeyh2ls0q5vruq7r58zruq9hpudlsywhqmelfhx](https://intel.arkm.com/explorer/address/bc1qps9458ydk8y9vlu5h0keeyh2ls0q5vruq7r58zruq9hpudlsywhqmelfhx) (Funding histórico ~1 ano)
+
+[bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h](https://intel.arkm.com/explorer/address/bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h) (Funding histórico ~1 ano)
+
+**[Path A - Peel Chain até Exchange (Gate)]**
+
+[15LjopQSGEciscSofebUkPu44yXPQah5tV](https://intel.arkm.com/explorer/address/15LjopQSGEciscSofebUkPu44yXPQah5tV) (Primeiro hop de saída - início da peel chain)
+
+[1PZ4sWYFR2YL8HrXWJ9MNgpYQGoQ1D4s99](https://intel.arkm.com/explorer/address/1PZ4sWYFR2YL8HrXWJ9MNgpYQGoQ1D4s99) (Distribuição intermediária - branching de fluxo)
+
+[bc1qdn3935jtfpyvdj6rv3wm078ekne7a2epzv9rav](https://intel.arkm.com/explorer/address/bc1qdn3935jtfpyvdj6rv3wm078ekne7a2epzv9rav) (Carteira de agregação - múltiplas entradas ~12.67K)
+
+[bc1q0kq7rd5ncpvy59v3rk9f8uuj0easp6mk40lzxx](https://intel.arkm.com/explorer/address/bc1q0kq7rd5ncpvy59v3rk9f8uuj0easp6mk40lzxx) (Intermediário final antes de cash-out)
+
+[15tvZEg89vXyqkkG4zaz4DRdFi7B1RCSP8](https://intel.arkm.com/explorer/address/15tvZEg89vXyqkkG4zaz4DRdFi7B1RCSP8) (Exchange deposit - Gate.io | provável cash-out)
+
+**[Path B - Peel Chain até Exchange (KuCoin)]**
+
+[bc1q4g37wkvgppcg5qru8gudnqf3qjqcej4a966ct8](https://intel.arkm.com/explorer/address/bc1q4g37wkvgppcg5qru8gudnqf3qjqcej4a966ct8) (Branch alternativo - saída paralela)
+
+[bc1qcpwhs4nj30zvnx7x8cyt9n3996easp58shuuc2](https://intel.arkm.com/explorer/address/bc1qcpwhs4nj30zvnx7x8cyt9n3996easp58shuuc2) (Hop intermediário)
+
+[bc1qn0k7de535rk975zsvukp6rwcarm5fwmu9zu9l5](https://intel.arkm.com/explorer/address/bc1qn0k7de535rk975zsvukp6rwcarm5fwmu9zu9l5) (Hop intermediário)
+
+[3Cb2BhNPD9YNaEvgXAHS1EZNAjqyxGS56s](https://intel.arkm.com/explorer/address/3Cb2BhNPD9YNaEvgXAHS1EZNAjqyxGS56s) (Possível carteira de consolidação)
+
+[bc1q9wvygkq7h9xgcp59mc6ghzczrqlgrj9k3ey9tz](https://intel.arkm.com/explorer/address/bc1q9wvygkq7h9xgcp59mc6ghzczrqlgrj9k3ey9tz) (Exchange deposit - KuCoin hot wallet)
 
 ## ⚠️ Disclaimer
 
 Esta análise foi conduzida exclusivamente com ferramentas públicas de OSINT e threat intelligence para fins educacionais. Nenhum sistema foi acessado ou explorado. O objetivo é documentar TTPs de campanhas de sextortion e contribuir com a comunidade de segurança da informação.
+
+
