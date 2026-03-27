@@ -47,7 +47,6 @@ O primeiro passo foi não pagar. O segundo foi investigar.
 | **URLScan.io** | Análise de comportamento HTTP do domínio |
 | **Censys** | Certificados TLS e infraestrutura |
 | **Arkham** | Fluxo e grafo Bitcoin |
-| **Blockchain Explorer** | Rastreamento de transações |
 
 ---
 
@@ -58,7 +57,7 @@ O primeiro passo foi não pagar. O segundo foi investigar.
 Os headers revelaram imediatamente que o e-mail era fraudulento:
 
 ```
-From:        richard****@hotmail.com       ← endereço spoofado
+From:        rich*******@hotmail.com       ← endereço spoofado
 Return-Path: hexane@dash.zeeklabs.com      ← origem real exposta
 X-Sender-IP: 67.205.157.219
 SPF:         FAIL
@@ -123,8 +122,11 @@ Fragmentação em camadas → Exchange → saque
 ---
 
 ### 3. Investigando o Domínio — zeeklabs.com
-
+Primeiro conferimos no VirusTotal o Domain e suas relations
 ![VT Domain](evidence/06_virustotal_domain.png)
+
+Posterior conferi no URLScan
+
 ![URLScan](evidence/07_urlscan.png)
 
 - DNS Provider: **Cloudflare**
@@ -132,11 +134,28 @@ Fragmentação em camadas → Exchange → saque
 - **DMARC: inexistente**
 - **DKIM: não configurado**
 
+Para confirmar isto rodamos no terminal
+
+``` Resolve-DnsName zeeklabs.com -Type TXT```
+
+Para conferir se há SPF sendo utilizado, e em sequencia
+
+``` Resolve-DnsName _dmarc zeeklabs.com -Type TXT```
+
+Para conferir se há utilização de DMARC para autenticidade
+
+![DMARC/SPF](evidence/08_dns_spf-dmarc.png)
+
+Conforme a imagem acima, não foram encontrados registros TXT contendo SPF/DMARC retornando somente o tipo SOA, o que evidencia a inexistencia do SPF e para o DMARC, evidenciando que ele não foi configurado, com isto chegamos a conclusão abaixo
+
 ➡️ Domínio legítimo com **misconfiguration crítica de segurança de e-mail**, tornando-o vulnerável a spoofing sem qualquer comprometimento direto.
 
 **Análise TLS (Censys)**
 
+Aqui buscamos sobre o tls no censys para entender mais sobre a infra deste dominio
 ![TLS](evidence/09_tls_cert.png)
+
+Após isto para verificar qualquer comportamento de certificados utilizamos a seguinte busca no Censys
 ![Censys](evidence/23_Censys_cert.names_Issuer.png)
 
 | Issuer | Observação |
